@@ -1,1 +1,4 @@
-module.exports = require("config/eslint-preset");
+/** @type {import('eslint').Linter.Config} */
+module.exports = {
+	extends: ['custom'],
+}
